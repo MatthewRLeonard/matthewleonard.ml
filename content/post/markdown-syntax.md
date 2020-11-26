@@ -116,6 +116,41 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 </html>
 {{< /highlight >}}
 
+
+### ticks then r
+
+```r
+games %>%
+  filter(week %in% c("1", "2"), posteam %in% c("ARI", "SF")) %>%
+  select(week, play_id, posteam, drive, score_differential_post, yardline_100, down, ydstogo, play_type, yards_gained, touchdown, ydsnet, drive_start_yard_line, drive_end_yard_line, drive_play_id_started, drive_off_play_id_started, drive_play_id_ended, drive_end_transition, ep, epa, wpa, away_wp_post, drive_play_count) %>%
+  #filter(play_id == drive_off_play_id_started) %>%
+  gt() %>%
+    cols_label(
+      play_id = "id",
+      posteam = "ball",
+```
+
+See that!
+
+### Using highlight then r
+
+{{< highlight r >}}
+# big join 
+team_stats <- off_season_yards %>%
+  full_join(def_season_yards, by = c("off_team" = "def_team")) %>%
+  rename(team = "off_team") %>%
+  full_join(off_team_stats) %>%
+  full_join(def_team_stats) %>%
+  left_join(select(teams, team_logo_wikipedia, team_abbr), by = c("team" = "team_abbr")) %>%
+  left_join(select(standings, division, team)) %>%
+  rename(logo = team_logo_wikipedia) %>%
+  relocate(c("off_total_plays", "off_epa_pp", "off_success_rate", "off_explosiveness", "off_negatives", "def_total_plays", "def_epa_pp", "def_success_rate", "def_explosiveness", "def_negatives"), .after = "team") %>%
+  relocate(c("logo", "division"), .after = "team")
+{{< /highlight >}}
+
+And that!
+
+
 ## List Types
 
 #### Ordered List
