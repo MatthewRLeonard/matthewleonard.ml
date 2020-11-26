@@ -1,4 +1,4 @@
-// the following is editing html font to Roboto, overriding themes/hugo_clarify/assets/sass/_variables.sass
+// the following is editing html font to Roboto and also pointing to a new moon image (dark mode), overriding themes/hugo_clarify/assets/sass/_variables.sass
 
 $font-path: '../fonts'
 $icons: '../icons/'
@@ -86,7 +86,7 @@ html
     .color
       &_choice
         &::after
-          background-image: url("#{$images}night-moon.jpg")
+          background-image: url("#{$images}moon.jpg")
           transform: translateX(1.4rem)
 
   @media (prefers-color-scheme: dark)
@@ -110,5 +110,5 @@ html
       .color
         &_choice
           &::after
-            background-image: url("#{$images}night-moon.jpg")
+            background-image: url("#{$images}moon.jpg")
             transform: translateX(1.4rem)
