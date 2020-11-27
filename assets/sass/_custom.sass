@@ -300,33 +300,6 @@ code
 .w
   color: #666
 
-.token.cdata
-	color: #999
-
-.token.punctuation
-	color: #ccc
-
-.token.deleted
-	color: #e2777a
-	
-.token.function-name
-	color: #6196cc
-
-.token.function
-	color: #f08d49
-
-.token.symbol
-	color: #f8c555
-
-.token.builtin
-	color: #cc99cd
-
-.token.variable
-	color: #7ec699
-
-.token.url
-	color: #67cdcc
-
 .hljs
   &-string
     color: #6ab825
@@ -393,3 +366,156 @@ code
     z-index: 19
   &_expanded &_from
     display: none
+
+
+/* rs-theme-name: Tomorrow
+/* rs-theme-is-dark: FALSE
+
+.ace_gutter
+  background: #f6f6f6
+  color: #4D4D4C
+
+.ace_print-margin
+  width: 1px
+  background: #f6f6f6
+
+.ace_editor
+  background-color: #FFFFFF
+  color: #4D4D4C
+
+.rstudio-themes-flat
+  &.ace_editor_theme
+    .profvis-flamegraph
+      background-color: #FFFFFF
+      color: #4D4D4C
+
+    background-color: #FFFFFF
+    color: #4D4D4C
+
+  .ace_editor_theme
+    background-color: #FFFFFF
+    color: #4D4D4C
+
+.ace_cursor
+  color: #AEAFAD
+
+.ace_marker-layer .ace_selection
+  background: #D6D6D6
+
+.ace_selection.ace_start
+  box-shadow: 0 0 3px 0px #FFFFFF
+  border-radius: 2px
+
+.ace_marker-layer
+  .ace_step
+    background: rgb(255, 255, 0)
+
+  .ace_bracket
+    margin: -1px 0 0 -1px
+    border: 1px solid #D1D1D1
+
+  .ace_active-line
+    background: #EFEFEF
+
+.ace_gutter-active-line
+  background-color: #dcdcdc
+
+.ace_marker-layer .ace_selected-word
+  border: 1px solid #D6D6D6
+
+.ace_invisible
+  color: #D1D1D1
+
+.ace_keyword, .ace_meta
+  color: #8959A8
+
+.ace_storage
+  color: #8959A8
+
+  &.ace_type
+    color: #8959A8
+
+.ace_support.ace_type
+  color: #8959A8
+
+.ace_keyword.ace_operator
+  color: #3E999F
+
+.ace_constant
+  &.ace_character, &.ace_language, &.ace_numeric
+    color: #F5871F
+
+.ace_keyword.ace_other.ace_unit, .ace_support.ace_constant, .ace_variable.ace_parameter
+  color: #F5871F
+
+.ace_constant.ace_other
+  color: #666969
+
+.ace_invalid
+  color: #FFFFFF
+  background-color: #C82829
+
+  &.ace_deprecated
+    color: #FFFFFF
+    background-color: #8959A8
+
+.ace_fold
+  background-color: #4271AE
+  border-color: #4D4D4C
+
+.ace_entity.ace_name.ace_function, .ace_support.ace_function, .ace_variable
+  color: #4271AE
+
+.ace_support
+  &.ace_class, &.ace_type
+    color: #C99E00
+
+.ace_heading, .ace_markup.ace_heading, .ace_string
+  color: #718C00
+
+.ace_entity
+  &.ace_name.ace_tag, &.ace_other.ace_attribute-name
+    color: #C82829
+
+.ace_meta.ace_tag, .ace_string.ace_regexp, .ace_variable
+  color: #C82829
+
+.ace_comment
+  color: #8E908C
+
+.ace_indent-guide
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bdu3f/BwAlfgctduB85QAAAABJRU5ErkJggg==) right repeat-y
+
+.nocolor.ace_editor .ace_line span
+  color: #8959a8 !important
+
+.ace_bracket
+  margin: 0 !important
+  border: 0 !important
+  background-color: rgba(192, 192, 192, 0.5)
+
+.ace_marker-layer .ace_foreign_line
+  position: absolute
+  z-index: -1
+  background-color: #F7F7F7
+
+.ace_node-selector
+  background-color: rgb(102, 155, 243)
+
+.ace_comment-highlight
+  color: #3C4C72
+  background-color: #FFECCB
+
+.ace_marker-layer
+  .ace_active_debug_line
+    position: absolute
+    z-index: -1
+    background-color: #FFEF9C
+
+  .ace_find_line
+    position: absolute
+    z-index: -1
+    background-color: #EEEEEE
+
+.ace_console_error
+  background-color: #EEEEEE
