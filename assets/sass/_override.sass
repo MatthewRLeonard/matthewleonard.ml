@@ -27,13 +27,14 @@ $theme: #0077b8
 
 html
   --color-mode: 'lit'
-  --light: #4D4D4C
-  --dark: #C5C8C6
+  --light: #fff
+  --dark: #000
   --bg: #002538
   --haze: #f2f2f2
   --gray: #020202
   --accent: var(--gray)
   --text: #575757
+  --code: #4D4D4C
   --header-text: var(--dark)
   --font: Roboto, sans-serif
   --theme: #0077b8
@@ -55,6 +56,7 @@ html
   @mixin darkmode
     --color-mode: 'dim'
     --text: var(--light)
+    --code: #C5C8C6
     --accent: var(--bubble)
     --choice-bg: var(--bg)
     --code-bg: #1D1F21
