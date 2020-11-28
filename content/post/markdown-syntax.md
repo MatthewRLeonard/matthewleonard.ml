@@ -117,7 +117,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 {{< /highlight >}}
 
 
-### ticks then r
+### ticks then R
 
 ```r
 games %>%
@@ -128,6 +128,27 @@ games %>%
     cols_label(
       play_id = "id",
       posteam = "ball",
+      score_differential_post = "score",
+      yardline_100 = "endzone",
+      ydstogo = "to go",
+      play_type = "play",
+      yards_gained = "yards",
+      drive_start_yard_line = "start",
+      drive_end_yard_line = "end",
+      drive_play_id_started = "id_1",
+      drive_off_play_id_started = "id_2",
+      drive_play_id_ended = "id_3",
+      drive_end_transition = "how",
+      away_wp_post = "wp"
+    ) %>%
+    fmt_number(
+      columns = 19:20,
+      decimals = 2    
+    ) %>%
+    fmt_percent(
+      columns = 21:22,
+      decimals = 1
+    )
 ```
 
 See that!
