@@ -401,7 +401,7 @@ code
     border: 1px solid darken($theme, 20%)
     
   &_translucent
-    background-color: rgba($theme, 0.15)
+    background-color: rgba($theme, 0.5)
     color: $theme
     border: 1px solid transparent
   &_tally
@@ -411,7 +411,7 @@ code
     display: inline-flex
     justify-content: center
     align-items: center
-    color: rgba($theme, 0.15)
+    color: darken($theme, 20%)
     margin: 0.1rem 0 0.1rem 0.2rem
     font-size: 0.7rem
 
@@ -477,7 +477,7 @@ code
     margin-left: 0.25rem
   &_content
     a
-      color: #4271AE
+      color: $theme
     ul, ol
       list-style: initial
       padding: 0.5rem 1.25rem
@@ -507,7 +507,7 @@ code
   border: none
   -webkit-appearance: none
   border-radius: 50%
-  color: $light !important
+  color: darken($theme, 20%) !important
   text-decoration: none !important
   font-size: 1.25rem
   cursor: pointer
