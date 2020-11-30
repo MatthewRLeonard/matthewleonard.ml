@@ -13,20 +13,6 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 <!--more-->
 ---
 
-## Instagram Simple Shortcode
-
-{{< instagram BWNjjyYFxVx >}}
-
-<br>
-
-w/ hidden captain'
-
-{{< instagram BWNjjyYFxVx hidecaption >}}
-
-<br>
-
----
-
 ## YouTube Privacy Enhanced Shortcode
 
 {{< youtube ZJthWmvUzzc >}}
