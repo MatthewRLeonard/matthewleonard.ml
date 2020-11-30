@@ -37,9 +37,13 @@ w/ hidden captain'
 
 ## Twitter Simple Shortcode
 
+Tweet
+
 {{< tweet 877500564405444608 >}}
 
 <br>
+
+Twitter Simple
 
 {{< twitter_simple 1085870671291310081 >}}
 
