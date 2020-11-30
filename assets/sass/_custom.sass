@@ -385,33 +385,33 @@ code
   left: 1rem
 
 .button
-  background-color: $theme
-  color: $light
+  background-color: darken($theme, 10%)
+  color: var(--code-bg)
   display: inline-flex
   padding: 0.5rem 1.5rem
   text-transform: uppercase
-  border: 1px solid $theme
+  border: 1px solid rgba($theme, 0.6)
   border-radius: 1.5rem
   font-size: 0.9rem
   align-items: center
   user-select: none
   &:hover, &:focus
-    background-color: darken($theme, 20%)
-    color: $light
-    border: 1px solid darken($theme, 20%)
+    background-color: var(--text)
+    color: var(--code-bg)
+    border: 1px solid var(--text)
     
   &_translucent
-    background-color: rgba($theme, 0.5)
-    color: $theme
+    background-color: rgba($theme, 0.3)
+    color: var(--code) // sidebar categories button colour 
     border: 1px solid transparent
   &_tally
     padding: 0 0.75rem
     border-radius: 0.5rem
-    background-color: $theme
+    background-color: var(--darken(code-bg, 10%))
     display: inline-flex
     justify-content: center
     align-items: center
-    color: darken($theme, 20%)
+    color: darken($theme, 40%)
     margin: 0.1rem 0 0.1rem 0.2rem
     font-size: 0.7rem
 
@@ -472,12 +472,17 @@ code
     align-items: center
     .button
       margin-bottom: 0
+      color: var(--text) // post button colour
+      user-select: none // added this and following two lines
+      &:hover, &:focus
+        color: var(--code-bg)
+        background-color: var(--text)
   &_date
     margin-right: 0.5rem
     margin-left: 0.25rem
   &_content
     a
-      color: $theme
+      color: #0077b8 // post anchor colour
     ul, ol
       list-style: initial
       padding: 0.5rem 1.25rem
@@ -507,7 +512,7 @@ code
   border: none
   -webkit-appearance: none
   border-radius: 50%
-  color: darken($theme, 20%) !important
+  color: $light !important
   text-decoration: none !important
   font-size: 1.25rem
   cursor: pointer
@@ -648,6 +653,7 @@ code
       @media screen and (min-width: 769px) 
         grid-template-columns: 2fr 7fr
         grid-gap: 1rem
+        
 .sidebar
   &_inner
     position: relative
@@ -732,7 +738,7 @@ code
       background-color: $theme
     svg
       fill: $light
-      opacity: 0.5
+      opacity: 0.4
       transition: 0.3s opacity var(--ease)
     &:hover svg
       opacity: 1
