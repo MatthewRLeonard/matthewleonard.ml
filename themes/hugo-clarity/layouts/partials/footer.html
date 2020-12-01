@@ -3,8 +3,8 @@
 {{- end }}
 <footer class="footer">
   <div class="footer_inner wrap pale">
-    <img src='{{ absURL "icons/apple-touch-icon.png" }}' class="icon icon_2 transparent">
-    <p>{{ i18n "copyright" }} &copy;&nbsp;{{- if .Site.Params.since }}{{ .Site.Params.since }}&nbsp;-&nbsp;{{- end }}<span class="year">{{ now.Format "2006"}}</span>&nbsp;{{ upper .Site.Title }}. {{ i18n "all_rights" }}</p>
+     <img src='{{ absURL "icons/Just-Wanna-RStats-icon.png" }}' class="icon icon_2 transparent">
+    <p>{{ i18n "copyright" }} &copy;&nbsp;{{- if .Site.Params.since }}{{ .Site.Params.since }}&nbsp;-&nbsp;{{- end }}<span class="year">{{ now.Format "2006"}}</span>&nbsp;{{ upper .Site.Title }}. The <a href="https://www.r-project.org/logo/">R logo</a> is &copy; 2016 The R Foundation. <!-- {{ i18n "all_rights" }} --></p>
     {{- partial "top" .}}
   </div>
 </footer>
