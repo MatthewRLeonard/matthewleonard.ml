@@ -3,7 +3,7 @@
 baseurl = "https://matthewleonard.ml/"  # Include trailing slash
 title = "Matthew Leonard"
 author = "Matthew Leonard"
-copyright = "Copyright © 2020, Matthew Leonard; all rights reserved."
+copyright = "Copyright © 2020, JUST WANNA RSTATS; all rights reserved."
 # canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"
