@@ -18,6 +18,8 @@ I made this website to:
 * refresh my HTML/CSS/JS skills (it'd been a minute)
 * have a site to house/link to my projects
 * have a nice spot for my CV to live
+* teach people some things I've learnt along the way
+* re-teach a future me some things I once knew
 * show people I can code
 * show people I can data
 * show people I can write
