@@ -385,8 +385,8 @@ code
   left: 1rem
 
 .button
-  background-color: var(--text)
-  color: var(--code-bg)
+  background-color: $bg
+  color: $light
   display: inline-flex
   padding: 0.5rem 1.5rem
   text-transform: uppercase
@@ -396,9 +396,9 @@ code
   align-items: center
   user-select: none
   &:hover, &:focus
-    background-color: $light
-    color: $theme
-    border: 1px solid var(--text)
+    background-color: $theme
+    color: $light
+    border: 1px solid transparent
     
   &_translucent
     background-color: rgba($theme, 0.2)
@@ -407,11 +407,11 @@ code
   &_tally
     padding: 0 0.75rem
     border-radius: 0.5rem
-    background-color: var(--darken(code-bg, 10%))
+    background-color: $light
     display: inline-flex
     justify-content: center
     align-items: center
-    color: $light
+    color: $dark
     margin: 0.1rem 0 0.1rem 0.2rem
     font-size: 0.7rem
 
