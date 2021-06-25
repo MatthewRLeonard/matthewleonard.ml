@@ -1,28 +1,25 @@
 ---
 aliases:
 - about-us
-- about-hugo
 - contact
-author: Hugo Authors
-date: "2019-02-28"
-description: Hugo, the world's fastest framework for building websites
+author: Matthew Leonard
+date: "2021-07-01"
+description: About me, Matthew Leonard, owner of this here website
 title: About
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+This website was created and is maintained by Matthew Leonard, a Master of Data Science student at the University of Newcastle. I am especially enthusiastic about R and and RStudio.
 
-Hugo makes use of a variety of open source projects including:
+I am always coding, always learning. I like wrangling, analysing and modelling data, but of late have taken a particular interest in visualising data. For instance, the design of tables and graphs as well the development and layout of dashboards and web apps.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I made this website to:
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+* see if I could do it
+* refresh my HTML/CSS/JS skills (it'd been a minute)
+* have a site to house/link to my projects
+* have a nice spot for my CV to live
+* show people I can code
+* show people I can data
+* show people I can write
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+This website was built with [Hugo](https://gohugo.io/) in [RStudio](https://www.rstudio.com/products/rstudio/), an edited [Clarity](https://themes.gohugo.io/hugo-clarity/) theme, and is powered by [Netlify](https://www.netlify.com/). A future post will detail how it was all done, from go to whoa.
