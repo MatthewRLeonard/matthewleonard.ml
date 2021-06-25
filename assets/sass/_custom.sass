@@ -390,14 +390,14 @@ code
   display: inline-flex
   padding: 0.5rem 1.5rem
   text-transform: uppercase
-  border: 1px solid rgba($theme, 0.6)
-  border-radius: 1.5rem
+  border: 1px solid transparent
+  // border-radius: 1.5rem
   font-size: 0.9rem
   align-items: center
   user-select: none
   &:hover, &:focus
-    background-color: $theme
-    color: $light
+    background-color: $light
+    color: $theme
     border: 1px solid var(--text)
     
   &_translucent
