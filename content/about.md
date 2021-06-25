@@ -22,4 +22,4 @@ I made this website to:
 * show people I can data
 * show people I can write
 
-This website was built with [Hugo](https://gohugo.io/) in [RStudio](https://www.rstudio.com/products/rstudio/), an edited [Clarity](https://themes.gohugo.io/hugo-clarity/) theme, and is powered by [Netlify](https://www.netlify.com/). A future post will detail how it was all done, from go to whoa.
+This website was built with [Hugo](https://gohugo.io/) in [RStudio](https://www.rstudio.com/products/rstudio/), an edited [Clarity](https://themes.gohugo.io/hugo-clarity/) theme, and is deployed to [Netlify](https://www.netlify.com/) via [GitHub](https://github.com/). A future post will detail how it was all done, from go to whoa.
