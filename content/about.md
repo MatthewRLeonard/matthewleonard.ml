@@ -3,7 +3,7 @@ aliases:
 - about-us
 - contact
 author: Matthew Leonard
-date: "2021-07-01"
+date: "2021-06-23"
 description: About me, Matthew Leonard, owner of this here website
 title: About
 ---
