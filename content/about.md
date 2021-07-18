@@ -8,9 +8,9 @@ description: About me, Matthew Leonard, owner of this here website
 title: About
 ---
 
-I am Matthew Leonard, a Master of Data Science student at the University of Newcastle. I am especially enthusiastic about R and and RStudio. One night, late, deep in code, I thought to myself "I love this stuff. This is all I wanna do." Hence the phrase/title, "Just Wanna [RStats](https://twitter.com/hashtag/rstats)".
+I am Matthew Leonard, a Master of Data Science student at the University of Newcastle. I am especially enthusiastic about R and and RStudio. One night, late, deep in code, I thought to myself, "I love this stuff. This is all I wanna do." Hence the phrase/title, "Just Wanna [RStats](https://twitter.com/hashtag/rstats)".
 
-I am always coding, always learning. I like wrangling, analysing and modelling data, but of late have taken a particular interest in visualising data / data graphics. For instance, the design of tables and graphs as well the development and layout of dashboards and web apps.
+I am always coding, always reading, always learning. I like wrangling, analysing and modelling data, but of late have taken a particular interest in visualising data / data graphics. For instance, the design of tables and graphs as well the development and layout of dashboards and web apps.
 
 I made this website to:
 
