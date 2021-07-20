@@ -8,11 +8,8 @@ description: My projects
 title: Projects
 ---
 
-Hello, these are my projects:
-
-![NFL Index Ratings](NFL-Index-Ratings.png#project-img)
-
 ### NFL Index Ratings
+![NFL Index Ratings](NFL-Index-Ratings.png#project-img)
 
 [matthewleonard.shinyapps.io/NFL-Index-Ratings](https://matthewleonard.shinyapps.io/NFL-Index-Ratings/)
 
