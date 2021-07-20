@@ -3,13 +3,14 @@ aliases:
 - projects
 - portfolio
 author: Matthew Leonard
+date: '2021-07-01'
 description: My projects
 title: Projects
 ---
 
 Hello, these are my projects:
 
-![NFL Index Ratings](NFL-Index-Ratings.png)
+![NFL Index Ratings](NFL-Index-Ratings.png#project-img)
 
 ### NFL Index Ratings
 
