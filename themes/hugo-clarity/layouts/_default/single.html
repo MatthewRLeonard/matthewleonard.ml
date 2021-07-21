@@ -25,6 +25,8 @@
       {{ partial "comments" . }}
     {{ end }}
   </article>
-  {{- partial "sidebar" . }}
+  {{ if not .Params.projects }}
+    {{- partial "sidebar" . }}
+  {{ end }}
 </div>
 {{- end }}
