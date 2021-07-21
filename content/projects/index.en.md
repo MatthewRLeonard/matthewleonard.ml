@@ -6,6 +6,7 @@ author: Matthew Leonard
 date: '2021-07-01'
 description: My projects
 title: Projects
+projects: true
 ---
 
 ![](NFL-Index-Ratings.png#project-img)
