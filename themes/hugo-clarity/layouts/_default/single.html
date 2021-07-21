@@ -25,7 +25,7 @@
       {{ partial "comments" . }}
     {{ end }}
   </article>
-  {{ if not .Params.projects }}
+  {{ if not (in .Params.title "Projects") }}
     {{- partial "sidebar" . }}
   {{ end }}
 </div>
