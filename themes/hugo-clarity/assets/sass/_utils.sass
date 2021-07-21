@@ -29,11 +29,13 @@
   [class*='grid-']
     grid-gap: 2rem
 
-  .grid-2, .grid-3, .grid-4, .grid-auto, .grid-inverse
+  .grid-2, .grid-3, .grid-4, .grid-auto, .grid-inverse, .grid-projects
     @extend %grid
   .grid-inverse
     grid-template-columns: 70% 1fr
     grid-column-gap: 4rem
+  .grid-projects
+    grid-template-columns: 100% 1fr
   .grid-2
     grid-template-columns: 1fr 1fr
   .grid-3

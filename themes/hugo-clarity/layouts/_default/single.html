@@ -7,7 +7,11 @@
 {{- end }}
 {{- $image := $scratch.Get "image" }}
 {{- $bg := (path.Join "images" $image | absLangURL) }}
-<div class="grid-inverse wrap content">
+{{ if not (in .Params.title "Projects") }}
+  <div class="grid-inverse wrap content">
+{{ else }}
+  <div class="grid-projects wrap content">
+{{ end }}
   <article class="post_content">
     {{- partial "i18nlist" . }}
     <h1 class="post_title">{{ .Title }}</h1>
