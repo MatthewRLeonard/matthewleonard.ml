@@ -1,4 +1,5 @@
-{{ if or (not in .Params.title "Projects") (not in .Params.title "About") }}
+{{ if or (in .Params.title "Projects") (in .Params.title "About") }}
+{{ else }}
   <div class="post_meta">
     {{ partial "sprite" (dict "icon" "calendar") }}
     <span class="post_date">
