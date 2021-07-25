@@ -818,3 +818,9 @@ img[src$='#project-img']
   width: 50%
   min-width: 400px
   padding: 40px 0 40px 40px
+  
+/* Make animations on the page “pause” while the content is being loaded */ 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after
+  animation-play-state: paused !important
