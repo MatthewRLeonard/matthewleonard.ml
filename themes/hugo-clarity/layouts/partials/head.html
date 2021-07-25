@@ -26,11 +26,10 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
 <script>
-// pages won't load until header image is loaded
-var img = document.querySelector("/logos/logo.png");
+// pages won't load until all elements are loaded (eg images and scripts)
 document.body.classList.add('js-loading');
-img.addEventListener("load", removeLoadingClass);
-function removeLoadingClass() {
+window.addEventListener("load", showPage);
+function showPage() {
   document.body.classList.remove('js-loading');
 }
 </script>
